@@ -1,4 +1,4 @@
-import torch
+    import torch
 from torch.autograd import Variable
 import utils
 import dataset
@@ -8,7 +8,7 @@ import models.crnn as crnn
 
 
 model_path = './data/crnn.pth'
-img_path = './data/demo.png'
+img_path = './data/img_14.jpg'
 alphabet = '0123456789abcdefghijklmnopqrstuvwxyz'
 
 model = crnn.CRNN(32, 1, 37, 256)
